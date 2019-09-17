@@ -1,0 +1,29 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "realtime chat application",
+  "main": "index.js",
+  "scripts": {
+    "startApp": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haseena-hassan/Chat-app.git"
+  },
+  "keywords": [
+    "socket.io",
+    "chat-app"
+  ],
+  "author": "haseena hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haseena-hassan/Chat-app/issues"
+  },
+  "homepage": "https://github.com/haseena-hassan/Chat-app#readme",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
