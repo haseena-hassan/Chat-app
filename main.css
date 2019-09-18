@@ -7,19 +7,20 @@ body {
 #message-container {
     width: 80%;
     max-width: 1200px;
+    padding: 40px;
 }
 #message-container div {
-    background-color: rgb(223, 146, 146);
+    background-color: rgb(241, 224, 176);
     padding: 5px;
 }
 #message-container div:nth-child(2n) {
-    background-color: rgb(230, 172, 86);
+    background-color: rgb(174, 233, 248);
 }
 #send-container {
     position: fixed;
     padding-bottom: 30px;
     bottom: 0;
-    background-color: rgb(72, 83, 114);
+    background-color: rgb(255, 255, 255);
     max-width: 1200px;
     width: 80%;
     display: flex;
